@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotel_guide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="11" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hotel_guide.Front_Page"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="com.example.hotel_guide.MainActivity"/> 
+            <activity
+            android:name="com.example.hotel_guide.City"/> 
+            <activity
+            android:name="com.example.hotel_guide.SearchOption"/> 
+            <activity
+            android:name="com.example.hotel_guide.SQLiteHelper"/>
+            <activity
+            android:name="com.example.hotel_guide.Rate"/>
+             <activity
+            android:name="com.example.hotel_guide.Rates"/>
+              <activity
+            android:name="com.example.hotel_guide.Rating"/>
+               <activity
+            android:name="com.example.hotel_guide.SQLiteConnector"/>
+               <activity
+            android:name="com.example.hotel_guide.SingleListItem"/>
+               <activity android:name="com.example.hotel_guide.City10"></activity>
+ <activity android:name="com.example.hotel_guide.City2"></activity>
+ <activity android:name="com.example.hotel_guide.City3"></activity>
+ <activity android:name="com.example.hotel_guide.City4"></activity>
+ <activity android:name="com.example.hotel_guide.City5"></activity>
+ <activity android:name="com.example.hotel_guide.City6"></activity>
+ <activity android:name="com.example.hotel_guide.City7"></activity>
+ <activity android:name="com.example.hotel_guide.City8"></activity>
+ <activity android:name="com.example.hotel_guide.City9"></activity>
+ <activity android:name="com.example.hotel_guide.F_S"></activity>
+ <activity android:name="com.example.hotel_guide.Five_Star"></activity>
+ <activity android:name="com.example.hotel_guide.Four_Star"></activity>
+ <activity android:name="com.example.hotel_guide.Hotelclclarksvaransi"></activity>
+ <activity android:name="com.example.hotel_guide.Radissonvaranasi"></activity>
+ <activity android:name="com.example.hotel_guide.Ramdhavaranasi"></activity>
+ <activity android:name="com.example.hotel_guide.Tajnadesar"></activity>
+ <activity android:name="com.example.hotel_guide.Threee_Star"></activity>
+ 
+ 
+ <activity android:name="com.example.hotel_guide.Popup"/>
+
+<activity android:name="com.example.hotel_guide.Three_Star"/>
+<activity android:name="com.example.hotel_guide.Five5"/><activity android:name="com.example.hotel_guide.Four5"/><activity android:name="com.example.hotel_guide.Three5"/><activity android:name="com.example.hotel_guide.Three6"/><activity android:name="com.example.hotel_guide.Four6"/><activity android:name="com.example.hotel_guide.Five6"/><activity android:name="com.example.hotel_guide.Three7"/><activity android:name="com.example.hotel_guide.Five7"/><activity android:name="com.example.hotel_guide.Four7"/><activity android:name="com.example.hotel_guide.Five2"/><activity android:name="com.example.hotel_guide.Four2"/><activity android:name="com.example.hotel_guide.Three2"/><activity android:name="com.example.hotel_guide.Five3"/><activity android:name="com.example.hotel_guide.Four3"/>
+<activity android:name="com.example.hotel_guide.Three3"/><activity android:name="com.example.hotel_guide.Five4"/><activity android:name="com.example.hotel_guide.Four4"/><activity android:name="com.example.hotel_guide.Three4"/><activity android:name="com.example.hotel_guide.Five8"/><activity android:name="com.example.hotel_guide.Four8"/><activity android:name="com.example.hotel_guide.Three8"/><activity android:name="com.example.hotel_guide.Five9"/><activity android:name="com.example.hotel_guide.Four9"/><activity android:name="com.example.hotel_guide.Three9"/><activity android:name="com.example.hotel_guide.Five10"/><activity android:name="com.example.hotel_guide.Four10"/><activity android:name="com.example.hotel_guide.Three10"/><activity android:name="com.example.hotel_guide.Cypresshotel"/>
+<activity android:name="com.example.hotel_guide.Dayalparadise"/><activity android:name="com.example.hotel_guide.Deepavadh"/><activity android:name="com.example.hotel_guide.Vivanta"/><activity android:name="com.example.hotel_guide.Tulip"/><activity android:name="com.example.hotel_guide.Transithotel"/><activity android:name="com.example.hotel_guide.Theorchid"/><activity android:name="com.example.hotel_guide.Theogolf"/><activity android:name="com.example.hotel_guide.Tajmahalpalace"/><activity android:name="com.example.hotel_guide.Tajlands"/><activity android:name="com.example.hotel_guide.Sunnsand"/><activity android:name="com.example.hotel_guide.Stlaurnsuites"/><activity android:name="com.example.hotel_guide.Starhotel"/><activity android:name="com.example.hotel_guide.Shantaihotel"/>
+<activity android:name="com.example.hotel_guide.Rivatesvaranasi"/><activity android:name="com.example.hotel_guide.Regenthotelcolaba"/><activity android:name="com.example.hotel_guide.Regenthotel"/><activity android:name="com.example.hotel_guide.Phonexhotel"/><activity android:name="com.example.hotel_guide.Mirage"/><activity android:name="com.example.hotel_guide.Mirador"/><activity android:name="com.example.hotel_guide.Meradanvaranasi"/><activity android:name="com.example.hotel_guide.Maple"/><activity android:name="com.example.hotel_guide.Manglam"/><activity android:name="com.example.hotel_guide.Lemeridienpune"/><activity android:name="com.example.hotel_guide.Leelamumbai"/><activity android:name="com.example.hotel_guide.Lalitmumbai"/><activity android:name="com.example.hotel_guide.Ibispune"/><activity android:name="com.example.hotel_guide.Hyattregency"/><activity android:name="com.example.hotel_guide.Hotelsubha"/><activity android:name="com.example.hotel_guide.Hotelsea"/><activity android:name="com.example.hotel_guide.Hotelregal"/><activity android:name="com.example.hotel_guide.Hotellvy"/><activity android:name="com.example.hotel_guide.Hotelista"/><activity android:name="com.example.hotel_guide.Hotelindia"/><activity android:name="com.example.hotel_guide.Hotelgangwaayvaranasi"/><activity android:name="com.example.hotel_guide.Hoteclclarksvaranasi"/><activity android:name="com.example.hotel_guide.Hotelbasera"/><activity android:name="com.example.hotel_guide.Hotekohinoor"/><activity android:name="com.example.hotel_guide.Hindustanvaranasi"/><activity android:name="com.example.hotel_guide.Grandsarover"/><activity android:name="com.example.hotel_guide.Grandjbr"/><activity android:name="com.example.hotel_guide.Fortuneselect"/><activity android:name="com.example.hotel_guide.Fortunein"/><activity android:name="com.example.hotel_guide.Adamothebeius"/><activity android:name="com.example.hotel_guide.adityasarover"/><activity android:name="com.example.hotel_guide.Aldeiasantarita"/><activity android:name="com.example.hotel_guide.Alegriathegoan"/><activity android:name="com.example.hotel_guide.Clarks"/><activity android:name="com.example.hotel_guide.clubmahindraresort"/><activity android:name="com.example.hotel_guide.Comfortinn"/><activity android:name="com.example.hotel_guide.Crystalretreat"/><activity android:name="com.example.hotel_guide.Desertscaperesort"/><activity android:name="com.example.hotel_guide.Dolphininn"/><activity android:name="com.example.hotel_guide.Expotel"/><activity android:name="com.example.hotel_guide.Grandhotelagra"/><activity android:name="com.example.hotel_guide.Grandimperial"/><activity android:name="com.example.hotel_guide.Aliladiwagoa"/><activity android:name="com.example.hotel_guide.Amargarhresort"/><activity android:name="com.example.hotel_guide.Amer"/><activity android:name="com.example.hotel_guide.Amigoplaza"/><activity android:name="com.example.hotel_guide.Angelsholiday"/><activity android:name="com.example.hotel_guide.avasa"/><activity android:name="com.example.hotel_guide.Azzurebysoree"/><activity android:name="com.example.hotel_guide.Barasinghavilla"/><activity android:name="com.example.hotel_guide.Basantinn"/><activity android:name="com.example.hotel_guide.Baywatchresort"/><activity android:name="com.example.hotel_guide.Beleza"/><activity android:name="com.example.hotel_guide.Bhoomiresidancy"/><activity android:name="com.example.hotel_guide.Bogmallobeachgoa"/><activity android:name="com.example.hotel_guide.Chancescasinogoa"/><activity android:name="com.example.hotel_guide.chandelaogharheritagehotel"/><activity android:name="com.example.hotel_guide.Cicladegoa"/><activity android:name="com.example.hotel_guide.Hotel9star"/><activity android:name="com.example.hotel_guide.Hoteladitya"/><activity android:name="com.example.hotel_guide.Hotelalankrita"/><activity android:name="com.example.hotel_guide.Hotelamrutha"/><activity android:name="com.example.hotel_guide.Hotelarch"/><activity android:name="com.example.hotel_guide.Hotelarya"/><activity android:name="com.example.hotel_guide.Hoteldaspalla"/><activity android:name="com.example.hotel_guide.Hotelgreen"/><activity android:name="com.example.hotel_guide.Hotelhoward"/><activity android:name="com.example.hotel_guide.Hotelmarinaagra"/><activity android:name="com.example.hotel_guide.Hotelvimal"/><activity android:name="com.example.hotel_guide.Hotelyamunaview"/><activity android:name="com.example.hotel_guide.Indanajodhpur"/><activity android:name="com.example.hotel_guide.Itc"/><activity android:name="com.example.hotel_guide.Katriyahotel"/><activity android:name="com.example.hotel_guide.Mandavasuites"/><activity android:name="com.example.hotel_guide.Mansingh"/><activity android:name="com.example.hotel_guide.Metropoliton"/><activity android:name="com.example.hotel_guide.Novotel"/><activity android:name="com.example.hotel_guide.Papermint"/><activity android:name="com.example.hotel_guide.Park"/><activity android:name="com.example.hotel_guide.Parkinnjaipur"/><activity android:name="com.example.hotel_guide.Radissondluagra"/><activity android:name="com.example.hotel_guide.Rambagh"/><activity android:name="com.example.hotel_guide.Royalheritage"/><activity android:name="com.example.hotel_guide.Samarajodhpur"/><activity android:name="com.example.hotel_guide.Square"/><activity android:name="com.example.hotel_guide.Tajpalace"/><activity android:name="com.example.hotel_guide.Trident"/><activity android:name="com.example.hotel_guide.umaidjodhpur"/><activity android:name="com.example.hotel_guide.velra"/><activity android:name="com.example.hotel_guide.Vivantajodhpur"/>
+<activity android:name="com.example.hotel_guide.Wyandhamagra"/>
+
+    </application>
+
+</manifest>

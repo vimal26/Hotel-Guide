@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".H_G" >
+
+   <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:text="@string/textView1" android:textSize="48sp" android:textStyle="bold|italic" android:textColor="#00ffff" /> 
+  <Button android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_below="@+id/textView1" android:text="@string/button" android:textStyle="italic" android:textColor="#ff2200" android:textSize="25sp" /> 
+  <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_below="@+id/button1" android:layout_marginLeft="102dp" android:layout_marginTop="71dp" android:text="" /> 
+
+
+</RelativeLayout>

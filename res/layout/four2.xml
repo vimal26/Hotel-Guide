@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+ <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Four Star"
+        android:textSize="25sp"
+        android:textStyle="italic|bold" 
+        android:background="#eeeeee"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_below="@+id/ratingBar1"
+        android:src="@drawable/subhamain" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_below="@+id/imageView1"
+        android:src="@drawable/grandmain" />
+
+    <Button
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content"
+          android:id="@+id/button2" 
+          android:text="Grand Sarovar Premiere" 
+          android:layout_alignTop="@+id/imageView2"
+           android:layout_alignParentRight="true" 
+           android:layout_alignBottom="@+id/imageView2" 
+           android:layout_alignLeft="@+id/button1"/>
+    <ImageView 
+        android:layout_height="70dp" 
+        android:layout_width="70dp" 
+        android:src="@drawable/hotelseamain" 
+        android:layout_below="@+id/imageView2"
+         android:layout_alignParentLeft="true" 
+         android:id="@+id/imageView3" 
+         android:layout_toLeftOf="@+id/button2"/>
+    <Button 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/button3" 
+        android:text="Hotel Sea princess" 
+        android:layout_alignTop="@+id/imageView3" 
+        android:layout_alignParentRight="true" 
+        android:layout_alignBottom="@+id/imageView3"
+         android:layout_alignLeft="@+id/button2"/>
+    <Button 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:id="@+id/button4" 
+        android:text="The Mirador" 
+        android:layout_alignTop="@+id/imageView4" 
+        android:layout_alignParentRight="true" 
+        android:layout_alignBottom="@+id/imageView4" 
+        android:layout_alignLeft="@+id/button3"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:text="Hotel Suba International" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView4"
+        android:layout_below="@+id/imageView5"
+        android:text="@string/b2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView5"
+        android:text="Mirage Hotel" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_below="@+id/imageView3"
+        android:src="@drawable/mirader" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView4"
+        android:layout_toLeftOf="@+id/button5"
+        android:src="@drawable/mirage" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"
+        android:rating="4" />
+   
+</RelativeLayout>
+</ScrollView>

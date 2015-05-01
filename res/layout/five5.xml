@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/th" >
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Five Star"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:background="#eeeeee"/>
+        
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:rating="5"
+        android:numStars="5" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/tajmahalpalace" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Taj Palace" 
+                 android:textColor="#ff0022"
+        android:textSize="18sp"/>
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fortunedasve" 
+        android:contentDescription="@string/b2"/>
+
+   
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fortune Select Metropolitan" 
+                 android:textColor="#ff0022"
+        android:textSize="18sp"/>
+
+    
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/japefront" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trident Jaipur" 
+                 android:textColor="#ff0022"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ab" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clarks Amer" 
+                 android:textColor="#ff0022"
+        android:textSize="18sp"/>
+    
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ab" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rambagh Palace" 
+                 android:textColor="#ff0022"
+        android:textSize="18sp"/>
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b2" />
+    
+</LinearLayout>
+</ScrollView>

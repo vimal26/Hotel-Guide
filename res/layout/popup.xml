@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="416dp" >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="top|center_horizontal"
+            android:text="@string/tv1"
+            android:textColor="#00ffff"
+            android:textSize="26sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv"
+            android:layout_marginTop="24dp" >
+
+            <RadioButton
+                android:id="@+id/radio8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Goa" 
+                 android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lucknow"  android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+
+            <RadioButton
+                android:id="@+id/radio9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jodhpur"
+                 android:textSize="25dp"
+                android:textStyle="bold|italic" />
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Varanasi" 
+                 android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+            <RadioButton
+                android:id="@+id/radio7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agra" 
+                 android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+            <RadioButton
+                android:id="@+id/radio6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hyderabad"
+                 android:textSize="25dp"
+                android:textStyle="bold|italic" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                 android:textSize="25dp"
+                android:textStyle="bold|italic" />
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Delhi" 
+                android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pune"
+                 android:textSize="25dp"
+                android:textStyle="bold|italic" />
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jaipur" 
+                 android:textSize="25dp"
+                android:textStyle="bold|italic"/>
+        </RadioGroup>
+        
+</RelativeLayout>
+  </ScrollView>
